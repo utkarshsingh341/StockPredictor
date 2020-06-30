@@ -48,7 +48,6 @@ def predict_price(dates, prices, x):
      plt.show()
      return svr_rbf.predict(x)[0], svr_lin.predict(x)[0],svr_poly.predict(x)[0]
 
-
 # calling get_data method by passing the csv file to it
 # input the csv file dataset of the stock to analyze here
 get_data('INR=X.csv') 
