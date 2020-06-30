@@ -52,3 +52,4 @@ def predict_price(dates, prices, x):
 # calling get_data method by passing the csv file to it
 # input the csv file dataset of the stock to analyze here
 get_data('INR=X.csv') 
+
